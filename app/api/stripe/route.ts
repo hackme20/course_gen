@@ -1,6 +1,6 @@
-import { getAuthSession } from "@/lib/auth";
-import { prisma } from "@/lib/db";
-import { stripe } from "@/lib/stripe";
+import { getAuthSession } from "../../../lib/auth";
+import { prisma } from "../../../lib/db";
+import { stripe } from "../../../lib/stripe";
 import { NextResponse } from "next/server";
 
 const settingsUrl = process.env.NEXTAUTH_URL + "/settings";
